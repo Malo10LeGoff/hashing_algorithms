@@ -22,7 +22,7 @@ rotate_left = lambda x, n: (x << n) | (x >> (32 - n))
 ### Constant added at each iteration
 K = [int(2**32*np.sin(i + 1)) for i in range(0,63)]
 
-s=sys.argv[1]
+s="string_to_test"
 """
 Step1 of the md5 hash process. 
 We pad our input with 0 until the rest of the division of len(input) by 512 is equal to 448
